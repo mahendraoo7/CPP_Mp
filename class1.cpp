@@ -15,31 +15,34 @@ void calfuel()
         fuel=500;
     }
     else
-    if((1000<=distance) && (distance<=2000))
+    if((1000<=distance) && (distance<=3000))
     {
         fuel=2200;
     }
 }
 
+   
+
 public:
 
 void FEEDINFO()
 {
-        cout<<"Enter flight Number ";
+        cout<<"Enter flight Number \n";
 		cin >>number;
-		cout<<"Enter flight destination";
+		cout<<"Enter flight destination\n";
 		cin >> destination;
-		cout<<"Enter distance";
+		cout<<"Enter distance\n";
 		cin >> distance;
+        calfuel();
 
-        clfuel=calfuel();
 }
 void SHOWINFO()
 { 
-        cout<<"flight number is : "<< number;
-        cout<<"flight destination : "<< destination;
-        cout<<"distance :"<< distance;
-        cout<<"total fuel is"<< clfuel;
+        cout<<"\nflight number is: "<< number;
+        cout<<"\nflight destination : "<< destination;
+        cout<<"\ndistance :"<< distance;
+        cout<<"\ntotal fuel is"<<fuel<<endl;
+        
         
 
         
