@@ -26,7 +26,7 @@ class Box
     }
     int getdata()
     {
-      return length + height + breath;
+      return length * height * breath;
     }
 };  
 
