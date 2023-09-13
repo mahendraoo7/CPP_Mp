@@ -26,7 +26,7 @@ void square(double b ,double h)
     
     area = 0.5*b*h;
     cout<<"Area of triangle is = "<<area<<endl;
-    cout<<endl;
+    
 }
 void square(int len,double bre)
 {
@@ -34,14 +34,14 @@ void square(int len,double bre)
     
     area = len*bre;
     cout<<"Area of rectangle is = "<<area<<endl;
-    cout<<endl;
+    
 }
 void square(int len)
 {
   float area;
     area = len*len;
     cout<<"Area of square is= "<<area<<endl;
-    cout<<endl;  
+      
 
 }
 };  
