@@ -18,7 +18,7 @@ void calfuel()
     if((1000<=distance) && (distance<=3000))
     {
         fuel=2200;
-    }
+    }       
 }
 
    
